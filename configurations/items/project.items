@@ -1,0 +1,13 @@
+Group All
+
+Group gInside		(All)
+
+Group GI_Living		"Living Room"	<video>		(gInside)
+
+/* active groups */
+Group:Switch:OR(ON, OFF) 		Lights 		"All Lights [(%d)]" 			(All)
+
+/* Lights */
+Switch Light_GI_Living_Lamp		"Lamp"		(GI_Living, Lights) 	{wemo="lamp"}
+Switch Light_GI_Living_Ceiling	"Ceiling"	(GI_Living, Lights)		{wemo="ceiling"}
+

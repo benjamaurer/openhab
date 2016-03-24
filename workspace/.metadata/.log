@@ -1,0 +1,1686 @@
+!SESSION 2016-03-23 20:20:45.996 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:20:55.270
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:20:55.273
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:20:55.371
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:20:55.375
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:20:56.492
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:20:56.494
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:21:06.758
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:21:06.766
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:21:06.846
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:21:06.848
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:21:06.858
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:21:06.860
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.openhab.ui.webapp 4 0 2016-03-23 20:21:46.106
+!MESSAGE [SCR] Error while attempting to deactivate instance of component Component[
+	name = org.openhab.ui.webapp.webappservlet
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = true
+	implementation = org.openhab.ui.webapp.internal.servlet.WebAppServlet
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = null
+	references = {
+		Reference[name = ItemRegistry, interface = org.openhab.core.items.ItemRegistry, policy = dynamic, cardinality = 1..1, target = null, bind = setItemRegistry, unbind = unsetItemRegistry]
+		Reference[name = HttpService, interface = org.osgi.service.http.HttpService, policy = dynamic, cardinality = 1..1, target = null, bind = setHttpService, unbind = unsetHttpService]
+		Reference[name = SitemapProvider, interface = org.openhab.model.sitemap.SitemapProvider, policy = dynamic, cardinality = 1..1, target = null, bind = setSitemapProvider, unbind = unsetSitemapProvider]
+		Reference[name = PageRenderer, interface = org.openhab.ui.webapp.internal.render.PageRenderer, policy = static, cardinality = 1..1, target = null, bind = setPageRenderer, unbind = null]
+	}
+	located in bundle = org.openhab.ui.webapp_1.8.1 [211]
+]
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.deactivate(ServiceComponent.java:363)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.deactivate(ServiceComponentProp.java:161)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:102)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:344)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:368)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:225)
+	at org.eclipse.equinox.http.servlet.internal.Activator.removeProxyServlet(Activator.java:87)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.destroy(ProxyServlet.java:44)
+	at org.eclipse.jetty.servlet.ServletHolder.destroyInstance(ServletHolder.java:362)
+	at org.eclipse.jetty.servlet.ServletHolder.doStop(ServletHolder.java:336)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:208)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:133)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:798)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:153)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:323)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.util.thread.ShutdownThread.run(ShutdownThread.java:124)
+Caused by: java.lang.IllegalArgumentException: Alias not found: /classicui/openhab.app
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceImpl.unregister(HttpServiceImpl.java:90)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.deactivate(WebAppServlet.java:89)
+	... 41 more
+Root exception:
+java.lang.IllegalArgumentException: Alias not found: /classicui/openhab.app
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceImpl.unregister(HttpServiceImpl.java:90)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.deactivate(WebAppServlet.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.deactivate(ServiceComponent.java:363)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.deactivate(ServiceComponentProp.java:161)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:102)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:344)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:368)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:225)
+	at org.eclipse.equinox.http.servlet.internal.Activator.removeProxyServlet(Activator.java:87)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.destroy(ProxyServlet.java:44)
+	at org.eclipse.jetty.servlet.ServletHolder.destroyInstance(ServletHolder.java:362)
+	at org.eclipse.jetty.servlet.ServletHolder.doStop(ServletHolder.java:336)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:208)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:133)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:798)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:153)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:323)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.util.thread.ShutdownThread.run(ShutdownThread.java:124)
+
+!ENTRY org.openhab.ui.webapp 4 0 2016-03-23 20:21:46.118
+!MESSAGE [SCR] Error while attempting to deactivate instance of component Component[
+	name = org.openhab.ui.webapp.webappservlet
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = true
+	implementation = org.openhab.ui.webapp.internal.servlet.WebAppServlet
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = null
+	references = {
+		Reference[name = ItemRegistry, interface = org.openhab.core.items.ItemRegistry, policy = dynamic, cardinality = 1..1, target = null, bind = setItemRegistry, unbind = unsetItemRegistry]
+		Reference[name = HttpService, interface = org.osgi.service.http.HttpService, policy = dynamic, cardinality = 1..1, target = null, bind = setHttpService, unbind = unsetHttpService]
+		Reference[name = SitemapProvider, interface = org.openhab.model.sitemap.SitemapProvider, policy = dynamic, cardinality = 1..1, target = null, bind = setSitemapProvider, unbind = unsetSitemapProvider]
+		Reference[name = PageRenderer, interface = org.openhab.ui.webapp.internal.render.PageRenderer, policy = static, cardinality = 1..1, target = null, bind = setPageRenderer, unbind = null]
+	}
+	located in bundle = org.openhab.ui.webapp_1.8.1 [211]
+]
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.deactivate(ServiceComponent.java:363)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.deactivate(ServiceComponentProp.java:161)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:102)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:344)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:368)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:225)
+	at org.eclipse.equinox.http.servlet.internal.Activator.removeProxyServlet(Activator.java:87)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.destroy(ProxyServlet.java:44)
+	at org.eclipse.jetty.servlet.ServletHolder.destroyInstance(ServletHolder.java:362)
+	at org.eclipse.jetty.servlet.ServletHolder.doStop(ServletHolder.java:336)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:208)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:133)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:798)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:153)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:323)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.util.thread.ShutdownThread.run(ShutdownThread.java:124)
+Caused by: java.lang.IllegalArgumentException: Alias not found: /classicui/openhab.app
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceImpl.unregister(HttpServiceImpl.java:90)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.deactivate(WebAppServlet.java:89)
+	... 41 more
+Root exception:
+java.lang.IllegalArgumentException: Alias not found: /classicui/openhab.app
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceImpl.unregister(HttpServiceImpl.java:90)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.deactivate(WebAppServlet.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.deactivate(ServiceComponent.java:363)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.deactivate(ServiceComponentProp.java:161)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:102)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:344)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:368)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:225)
+	at org.eclipse.equinox.http.servlet.internal.Activator.removeProxyServlet(Activator.java:87)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.destroy(ProxyServlet.java:44)
+	at org.eclipse.jetty.servlet.ServletHolder.destroyInstance(ServletHolder.java:362)
+	at org.eclipse.jetty.servlet.ServletHolder.doStop(ServletHolder.java:336)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:208)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:133)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:798)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:153)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:323)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.util.thread.ShutdownThread.run(ShutdownThread.java:124)
+!SESSION 2016-03-23 20:23:31.292 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:23:32.659
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:23:32.661
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:23:32.677
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:23:32.679
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:23:33.029
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:23:33.031
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:23:43.420
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:23:43.429
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:23:43.446
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:23:43.455
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:23:43.505
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:23:43.510
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.openhab.ui.webapp 4 0 2016-03-23 20:24:13.529
+!MESSAGE [SCR] Error while attempting to deactivate instance of component Component[
+	name = org.openhab.ui.webapp.webappservlet
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = true
+	implementation = org.openhab.ui.webapp.internal.servlet.WebAppServlet
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = null
+	references = {
+		Reference[name = ItemRegistry, interface = org.openhab.core.items.ItemRegistry, policy = dynamic, cardinality = 1..1, target = null, bind = setItemRegistry, unbind = unsetItemRegistry]
+		Reference[name = HttpService, interface = org.osgi.service.http.HttpService, policy = dynamic, cardinality = 1..1, target = null, bind = setHttpService, unbind = unsetHttpService]
+		Reference[name = SitemapProvider, interface = org.openhab.model.sitemap.SitemapProvider, policy = dynamic, cardinality = 1..1, target = null, bind = setSitemapProvider, unbind = unsetSitemapProvider]
+		Reference[name = PageRenderer, interface = org.openhab.ui.webapp.internal.render.PageRenderer, policy = static, cardinality = 1..1, target = null, bind = setPageRenderer, unbind = null]
+	}
+	located in bundle = org.openhab.ui.webapp_1.8.1 [211]
+]
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.deactivate(ServiceComponent.java:363)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.deactivate(ServiceComponentProp.java:161)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:102)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:344)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:368)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:225)
+	at org.eclipse.equinox.http.servlet.internal.Activator.removeProxyServlet(Activator.java:87)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.destroy(ProxyServlet.java:44)
+	at org.eclipse.jetty.servlet.ServletHolder.destroyInstance(ServletHolder.java:362)
+	at org.eclipse.jetty.servlet.ServletHolder.doStop(ServletHolder.java:336)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:208)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:133)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:798)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:153)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:323)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.util.thread.ShutdownThread.run(ShutdownThread.java:124)
+Caused by: java.lang.IllegalArgumentException: Alias not found: /classicui/openhab.app
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceImpl.unregister(HttpServiceImpl.java:90)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.deactivate(WebAppServlet.java:89)
+	... 41 more
+Root exception:
+java.lang.IllegalArgumentException: Alias not found: /classicui/openhab.app
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceImpl.unregister(HttpServiceImpl.java:90)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.deactivate(WebAppServlet.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.deactivate(ServiceComponent.java:363)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.deactivate(ServiceComponentProp.java:161)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:102)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:344)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:368)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:225)
+	at org.eclipse.equinox.http.servlet.internal.Activator.removeProxyServlet(Activator.java:87)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.destroy(ProxyServlet.java:44)
+	at org.eclipse.jetty.servlet.ServletHolder.destroyInstance(ServletHolder.java:362)
+	at org.eclipse.jetty.servlet.ServletHolder.doStop(ServletHolder.java:336)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:208)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:133)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:798)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:153)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:323)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.util.thread.ShutdownThread.run(ShutdownThread.java:124)
+
+!ENTRY org.openhab.ui.webapp 4 0 2016-03-23 20:24:13.536
+!MESSAGE [SCR] Error while attempting to deactivate instance of component Component[
+	name = org.openhab.ui.webapp.webappservlet
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = true
+	implementation = org.openhab.ui.webapp.internal.servlet.WebAppServlet
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = null
+	references = {
+		Reference[name = ItemRegistry, interface = org.openhab.core.items.ItemRegistry, policy = dynamic, cardinality = 1..1, target = null, bind = setItemRegistry, unbind = unsetItemRegistry]
+		Reference[name = HttpService, interface = org.osgi.service.http.HttpService, policy = dynamic, cardinality = 1..1, target = null, bind = setHttpService, unbind = unsetHttpService]
+		Reference[name = SitemapProvider, interface = org.openhab.model.sitemap.SitemapProvider, policy = dynamic, cardinality = 1..1, target = null, bind = setSitemapProvider, unbind = unsetSitemapProvider]
+		Reference[name = PageRenderer, interface = org.openhab.ui.webapp.internal.render.PageRenderer, policy = static, cardinality = 1..1, target = null, bind = setPageRenderer, unbind = null]
+	}
+	located in bundle = org.openhab.ui.webapp_1.8.1 [211]
+]
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.deactivate(ServiceComponent.java:363)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.deactivate(ServiceComponentProp.java:161)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:102)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:344)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:368)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:225)
+	at org.eclipse.equinox.http.servlet.internal.Activator.removeProxyServlet(Activator.java:87)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.destroy(ProxyServlet.java:44)
+	at org.eclipse.jetty.servlet.ServletHolder.destroyInstance(ServletHolder.java:362)
+	at org.eclipse.jetty.servlet.ServletHolder.doStop(ServletHolder.java:336)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:208)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:133)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:798)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:153)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:323)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.util.thread.ShutdownThread.run(ShutdownThread.java:124)
+Caused by: java.lang.IllegalArgumentException: Alias not found: /classicui/openhab.app
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceImpl.unregister(HttpServiceImpl.java:90)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.deactivate(WebAppServlet.java:89)
+	... 41 more
+Root exception:
+java.lang.IllegalArgumentException: Alias not found: /classicui/openhab.app
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceImpl.unregister(HttpServiceImpl.java:90)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.deactivate(WebAppServlet.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.deactivate(ServiceComponent.java:363)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.deactivate(ServiceComponentProp.java:161)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:102)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:344)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:368)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:225)
+	at org.eclipse.equinox.http.servlet.internal.Activator.removeProxyServlet(Activator.java:87)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.destroy(ProxyServlet.java:44)
+	at org.eclipse.jetty.servlet.ServletHolder.destroyInstance(ServletHolder.java:362)
+	at org.eclipse.jetty.servlet.ServletHolder.doStop(ServletHolder.java:336)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:208)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:133)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:798)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:153)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:323)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.util.thread.ShutdownThread.run(ShutdownThread.java:124)
+!SESSION 2016-03-23 20:24:26.130 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:24:27.569
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:24:27.574
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:24:27.610
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:24:27.612
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:24:27.936
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:24:27.938
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:24:38.415
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:24:38.424
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:24:38.443
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:24:38.451
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:24:38.505
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:24:38.514
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.openhab.ui.webapp 4 0 2016-03-23 20:26:03.648
+!MESSAGE [SCR] Error while attempting to deactivate instance of component Component[
+	name = org.openhab.ui.webapp.webappservlet
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = true
+	implementation = org.openhab.ui.webapp.internal.servlet.WebAppServlet
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = null
+	references = {
+		Reference[name = ItemRegistry, interface = org.openhab.core.items.ItemRegistry, policy = dynamic, cardinality = 1..1, target = null, bind = setItemRegistry, unbind = unsetItemRegistry]
+		Reference[name = HttpService, interface = org.osgi.service.http.HttpService, policy = dynamic, cardinality = 1..1, target = null, bind = setHttpService, unbind = unsetHttpService]
+		Reference[name = SitemapProvider, interface = org.openhab.model.sitemap.SitemapProvider, policy = dynamic, cardinality = 1..1, target = null, bind = setSitemapProvider, unbind = unsetSitemapProvider]
+		Reference[name = PageRenderer, interface = org.openhab.ui.webapp.internal.render.PageRenderer, policy = static, cardinality = 1..1, target = null, bind = setPageRenderer, unbind = null]
+	}
+	located in bundle = org.openhab.ui.webapp_1.8.1 [211]
+]
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.deactivate(ServiceComponent.java:363)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.deactivate(ServiceComponentProp.java:161)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:102)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:344)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:368)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:225)
+	at org.eclipse.equinox.http.servlet.internal.Activator.removeProxyServlet(Activator.java:87)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.destroy(ProxyServlet.java:44)
+	at org.eclipse.jetty.servlet.ServletHolder.destroyInstance(ServletHolder.java:362)
+	at org.eclipse.jetty.servlet.ServletHolder.doStop(ServletHolder.java:336)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:208)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:133)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:798)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:153)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:323)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.util.thread.ShutdownThread.run(ShutdownThread.java:124)
+Caused by: java.lang.IllegalArgumentException: Alias not found: /classicui/openhab.app
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceImpl.unregister(HttpServiceImpl.java:90)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.deactivate(WebAppServlet.java:89)
+	... 41 more
+Root exception:
+java.lang.IllegalArgumentException: Alias not found: /classicui/openhab.app
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceImpl.unregister(HttpServiceImpl.java:90)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.deactivate(WebAppServlet.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.deactivate(ServiceComponent.java:363)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.deactivate(ServiceComponentProp.java:161)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:102)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:344)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:368)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:225)
+	at org.eclipse.equinox.http.servlet.internal.Activator.removeProxyServlet(Activator.java:87)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.destroy(ProxyServlet.java:44)
+	at org.eclipse.jetty.servlet.ServletHolder.destroyInstance(ServletHolder.java:362)
+	at org.eclipse.jetty.servlet.ServletHolder.doStop(ServletHolder.java:336)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:208)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:133)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:798)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:153)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:323)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.util.thread.ShutdownThread.run(ShutdownThread.java:124)
+
+!ENTRY org.openhab.ui.webapp 4 0 2016-03-23 20:26:03.659
+!MESSAGE [SCR] Error while attempting to deactivate instance of component Component[
+	name = org.openhab.ui.webapp.webappservlet
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = true
+	implementation = org.openhab.ui.webapp.internal.servlet.WebAppServlet
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = null
+	references = {
+		Reference[name = ItemRegistry, interface = org.openhab.core.items.ItemRegistry, policy = dynamic, cardinality = 1..1, target = null, bind = setItemRegistry, unbind = unsetItemRegistry]
+		Reference[name = HttpService, interface = org.osgi.service.http.HttpService, policy = dynamic, cardinality = 1..1, target = null, bind = setHttpService, unbind = unsetHttpService]
+		Reference[name = SitemapProvider, interface = org.openhab.model.sitemap.SitemapProvider, policy = dynamic, cardinality = 1..1, target = null, bind = setSitemapProvider, unbind = unsetSitemapProvider]
+		Reference[name = PageRenderer, interface = org.openhab.ui.webapp.internal.render.PageRenderer, policy = static, cardinality = 1..1, target = null, bind = setPageRenderer, unbind = null]
+	}
+	located in bundle = org.openhab.ui.webapp_1.8.1 [211]
+]
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.deactivate(ServiceComponent.java:363)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.deactivate(ServiceComponentProp.java:161)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:102)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:344)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:368)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:225)
+	at org.eclipse.equinox.http.servlet.internal.Activator.removeProxyServlet(Activator.java:87)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.destroy(ProxyServlet.java:44)
+	at org.eclipse.jetty.servlet.ServletHolder.destroyInstance(ServletHolder.java:362)
+	at org.eclipse.jetty.servlet.ServletHolder.doStop(ServletHolder.java:336)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:208)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:133)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:798)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:153)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:323)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.util.thread.ShutdownThread.run(ShutdownThread.java:124)
+Caused by: java.lang.IllegalArgumentException: Alias not found: /classicui/openhab.app
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceImpl.unregister(HttpServiceImpl.java:90)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.deactivate(WebAppServlet.java:89)
+	... 41 more
+Root exception:
+java.lang.IllegalArgumentException: Alias not found: /classicui/openhab.app
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceImpl.unregister(HttpServiceImpl.java:90)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.deactivate(WebAppServlet.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.deactivate(ServiceComponent.java:363)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.deactivate(ServiceComponentProp.java:161)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:102)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:344)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:368)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:225)
+	at org.eclipse.equinox.http.servlet.internal.Activator.removeProxyServlet(Activator.java:87)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.destroy(ProxyServlet.java:44)
+	at org.eclipse.jetty.servlet.ServletHolder.destroyInstance(ServletHolder.java:362)
+	at org.eclipse.jetty.servlet.ServletHolder.doStop(ServletHolder.java:336)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:208)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:133)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:798)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:153)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:323)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.util.thread.ShutdownThread.run(ShutdownThread.java:124)
+!SESSION 2016-03-23 20:26:57.671 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:26:59.037
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:26:59.039
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:26:59.079
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:26:59.081
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:26:59.412
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:26:59.414
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:27:09.818
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:27:09.828
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:27:09.845
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:27:09.855
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:27:09.904
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:27:09.909
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+!SESSION 2016-03-23 20:30:51.751 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:30:53.095
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:30:53.099
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:30:53.129
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:30:53.131
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:30:53.472
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:30:53.473
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:31:03.766
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:31:03.775
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:31:03.786
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:31:03.791
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:31:03.816
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:31:03.819
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.openhab.ui.webapp 4 0 2016-03-23 20:31:20.101
+!MESSAGE [SCR] Error while attempting to deactivate instance of component Component[
+	name = org.openhab.ui.webapp.webappservlet
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = true
+	implementation = org.openhab.ui.webapp.internal.servlet.WebAppServlet
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = null
+	references = {
+		Reference[name = ItemRegistry, interface = org.openhab.core.items.ItemRegistry, policy = dynamic, cardinality = 1..1, target = null, bind = setItemRegistry, unbind = unsetItemRegistry]
+		Reference[name = HttpService, interface = org.osgi.service.http.HttpService, policy = dynamic, cardinality = 1..1, target = null, bind = setHttpService, unbind = unsetHttpService]
+		Reference[name = SitemapProvider, interface = org.openhab.model.sitemap.SitemapProvider, policy = dynamic, cardinality = 1..1, target = null, bind = setSitemapProvider, unbind = unsetSitemapProvider]
+		Reference[name = PageRenderer, interface = org.openhab.ui.webapp.internal.render.PageRenderer, policy = static, cardinality = 1..1, target = null, bind = setPageRenderer, unbind = null]
+	}
+	located in bundle = org.openhab.ui.webapp_1.8.1 [211]
+]
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.deactivate(ServiceComponent.java:363)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.deactivate(ServiceComponentProp.java:161)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:102)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:344)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:368)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:225)
+	at org.eclipse.equinox.http.servlet.internal.Activator.removeProxyServlet(Activator.java:87)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.destroy(ProxyServlet.java:44)
+	at org.eclipse.jetty.servlet.ServletHolder.destroyInstance(ServletHolder.java:362)
+	at org.eclipse.jetty.servlet.ServletHolder.doStop(ServletHolder.java:336)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:208)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:133)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:798)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:153)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:323)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.util.thread.ShutdownThread.run(ShutdownThread.java:124)
+Caused by: java.lang.IllegalArgumentException: Alias not found: /classicui/openhab.app
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceImpl.unregister(HttpServiceImpl.java:90)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.deactivate(WebAppServlet.java:89)
+	... 41 more
+Root exception:
+java.lang.IllegalArgumentException: Alias not found: /classicui/openhab.app
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceImpl.unregister(HttpServiceImpl.java:90)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.deactivate(WebAppServlet.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.deactivate(ServiceComponent.java:363)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.deactivate(ServiceComponentProp.java:161)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:102)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:344)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:368)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:225)
+	at org.eclipse.equinox.http.servlet.internal.Activator.removeProxyServlet(Activator.java:87)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.destroy(ProxyServlet.java:44)
+	at org.eclipse.jetty.servlet.ServletHolder.destroyInstance(ServletHolder.java:362)
+	at org.eclipse.jetty.servlet.ServletHolder.doStop(ServletHolder.java:336)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:208)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:133)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:798)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:153)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:323)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.util.thread.ShutdownThread.run(ShutdownThread.java:124)
+
+!ENTRY org.openhab.ui.webapp 4 0 2016-03-23 20:31:20.112
+!MESSAGE [SCR] Error while attempting to deactivate instance of component Component[
+	name = org.openhab.ui.webapp.webappservlet
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = true
+	implementation = org.openhab.ui.webapp.internal.servlet.WebAppServlet
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = null
+	references = {
+		Reference[name = ItemRegistry, interface = org.openhab.core.items.ItemRegistry, policy = dynamic, cardinality = 1..1, target = null, bind = setItemRegistry, unbind = unsetItemRegistry]
+		Reference[name = HttpService, interface = org.osgi.service.http.HttpService, policy = dynamic, cardinality = 1..1, target = null, bind = setHttpService, unbind = unsetHttpService]
+		Reference[name = SitemapProvider, interface = org.openhab.model.sitemap.SitemapProvider, policy = dynamic, cardinality = 1..1, target = null, bind = setSitemapProvider, unbind = unsetSitemapProvider]
+		Reference[name = PageRenderer, interface = org.openhab.ui.webapp.internal.render.PageRenderer, policy = static, cardinality = 1..1, target = null, bind = setPageRenderer, unbind = null]
+	}
+	located in bundle = org.openhab.ui.webapp_1.8.1 [211]
+]
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.deactivate(ServiceComponent.java:363)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.deactivate(ServiceComponentProp.java:161)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:102)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:344)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:368)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:225)
+	at org.eclipse.equinox.http.servlet.internal.Activator.removeProxyServlet(Activator.java:87)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.destroy(ProxyServlet.java:44)
+	at org.eclipse.jetty.servlet.ServletHolder.destroyInstance(ServletHolder.java:362)
+	at org.eclipse.jetty.servlet.ServletHolder.doStop(ServletHolder.java:336)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:208)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:133)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:798)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:153)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:323)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.util.thread.ShutdownThread.run(ShutdownThread.java:124)
+Caused by: java.lang.IllegalArgumentException: Alias not found: /classicui/openhab.app
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceImpl.unregister(HttpServiceImpl.java:90)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.deactivate(WebAppServlet.java:89)
+	... 41 more
+Root exception:
+java.lang.IllegalArgumentException: Alias not found: /classicui/openhab.app
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceImpl.unregister(HttpServiceImpl.java:90)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.deactivate(WebAppServlet.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.deactivate(ServiceComponent.java:363)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.deactivate(ServiceComponentProp.java:161)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:102)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:344)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:368)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:225)
+	at org.eclipse.equinox.http.servlet.internal.Activator.removeProxyServlet(Activator.java:87)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.destroy(ProxyServlet.java:44)
+	at org.eclipse.jetty.servlet.ServletHolder.destroyInstance(ServletHolder.java:362)
+	at org.eclipse.jetty.servlet.ServletHolder.doStop(ServletHolder.java:336)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:208)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:133)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:798)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:153)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:323)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.util.thread.ShutdownThread.run(ShutdownThread.java:124)
+!SESSION 2016-03-23 20:32:01.240 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:32:02.604
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:32:02.606
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:32:02.623
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:32:02.625
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:32:02.946
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:32:02.948
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:32:13.532
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:32:13.541
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:32:13.559
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:32:13.567
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:32:13.607
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:32:13.612
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.openhab.ui.webapp 4 0 2016-03-23 20:33:32.662
+!MESSAGE [SCR] Error while attempting to deactivate instance of component Component[
+	name = org.openhab.ui.webapp.webappservlet
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = true
+	implementation = org.openhab.ui.webapp.internal.servlet.WebAppServlet
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = null
+	references = {
+		Reference[name = ItemRegistry, interface = org.openhab.core.items.ItemRegistry, policy = dynamic, cardinality = 1..1, target = null, bind = setItemRegistry, unbind = unsetItemRegistry]
+		Reference[name = HttpService, interface = org.osgi.service.http.HttpService, policy = dynamic, cardinality = 1..1, target = null, bind = setHttpService, unbind = unsetHttpService]
+		Reference[name = SitemapProvider, interface = org.openhab.model.sitemap.SitemapProvider, policy = dynamic, cardinality = 1..1, target = null, bind = setSitemapProvider, unbind = unsetSitemapProvider]
+		Reference[name = PageRenderer, interface = org.openhab.ui.webapp.internal.render.PageRenderer, policy = static, cardinality = 1..1, target = null, bind = setPageRenderer, unbind = null]
+	}
+	located in bundle = org.openhab.ui.webapp_1.8.1 [211]
+]
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.deactivate(ServiceComponent.java:363)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.deactivate(ServiceComponentProp.java:161)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:102)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:344)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:368)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:225)
+	at org.eclipse.equinox.http.servlet.internal.Activator.removeProxyServlet(Activator.java:87)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.destroy(ProxyServlet.java:44)
+	at org.eclipse.jetty.servlet.ServletHolder.destroyInstance(ServletHolder.java:362)
+	at org.eclipse.jetty.servlet.ServletHolder.doStop(ServletHolder.java:336)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:208)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:133)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:798)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:153)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:323)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.util.thread.ShutdownThread.run(ShutdownThread.java:124)
+Caused by: java.lang.IllegalArgumentException: Alias not found: /classicui/openhab.app
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceImpl.unregister(HttpServiceImpl.java:90)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.deactivate(WebAppServlet.java:89)
+	... 41 more
+Root exception:
+java.lang.IllegalArgumentException: Alias not found: /classicui/openhab.app
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceImpl.unregister(HttpServiceImpl.java:90)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.deactivate(WebAppServlet.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.deactivate(ServiceComponent.java:363)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.deactivate(ServiceComponentProp.java:161)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:102)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:344)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:368)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:225)
+	at org.eclipse.equinox.http.servlet.internal.Activator.removeProxyServlet(Activator.java:87)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.destroy(ProxyServlet.java:44)
+	at org.eclipse.jetty.servlet.ServletHolder.destroyInstance(ServletHolder.java:362)
+	at org.eclipse.jetty.servlet.ServletHolder.doStop(ServletHolder.java:336)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:208)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:133)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:798)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:153)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:323)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.util.thread.ShutdownThread.run(ShutdownThread.java:124)
+
+!ENTRY org.openhab.ui.webapp 4 0 2016-03-23 20:33:32.674
+!MESSAGE [SCR] Error while attempting to deactivate instance of component Component[
+	name = org.openhab.ui.webapp.webappservlet
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = true
+	implementation = org.openhab.ui.webapp.internal.servlet.WebAppServlet
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = null
+	references = {
+		Reference[name = ItemRegistry, interface = org.openhab.core.items.ItemRegistry, policy = dynamic, cardinality = 1..1, target = null, bind = setItemRegistry, unbind = unsetItemRegistry]
+		Reference[name = HttpService, interface = org.osgi.service.http.HttpService, policy = dynamic, cardinality = 1..1, target = null, bind = setHttpService, unbind = unsetHttpService]
+		Reference[name = SitemapProvider, interface = org.openhab.model.sitemap.SitemapProvider, policy = dynamic, cardinality = 1..1, target = null, bind = setSitemapProvider, unbind = unsetSitemapProvider]
+		Reference[name = PageRenderer, interface = org.openhab.ui.webapp.internal.render.PageRenderer, policy = static, cardinality = 1..1, target = null, bind = setPageRenderer, unbind = null]
+	}
+	located in bundle = org.openhab.ui.webapp_1.8.1 [211]
+]
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.deactivate(ServiceComponent.java:363)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.deactivate(ServiceComponentProp.java:161)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:102)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:344)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:368)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:225)
+	at org.eclipse.equinox.http.servlet.internal.Activator.removeProxyServlet(Activator.java:87)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.destroy(ProxyServlet.java:44)
+	at org.eclipse.jetty.servlet.ServletHolder.destroyInstance(ServletHolder.java:362)
+	at org.eclipse.jetty.servlet.ServletHolder.doStop(ServletHolder.java:336)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:208)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:133)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:798)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:153)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:323)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.util.thread.ShutdownThread.run(ShutdownThread.java:124)
+Caused by: java.lang.IllegalArgumentException: Alias not found: /classicui/openhab.app
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceImpl.unregister(HttpServiceImpl.java:90)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.deactivate(WebAppServlet.java:89)
+	... 41 more
+Root exception:
+java.lang.IllegalArgumentException: Alias not found: /classicui/openhab.app
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceImpl.unregister(HttpServiceImpl.java:90)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.deactivate(WebAppServlet.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.deactivate(ServiceComponent.java:363)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.deactivate(ServiceComponentProp.java:161)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:102)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:344)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:368)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:225)
+	at org.eclipse.equinox.http.servlet.internal.Activator.removeProxyServlet(Activator.java:87)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.destroy(ProxyServlet.java:44)
+	at org.eclipse.jetty.servlet.ServletHolder.destroyInstance(ServletHolder.java:362)
+	at org.eclipse.jetty.servlet.ServletHolder.doStop(ServletHolder.java:336)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:208)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:133)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:798)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:153)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:323)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.util.thread.ShutdownThread.run(ShutdownThread.java:124)
+!SESSION 2016-03-23 20:34:12.382 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:34:13.762
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:34:13.764
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:34:13.782
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:34:13.784
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:34:14.114
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:34:14.116
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:34:24.632
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:34:24.638
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:34:24.650
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:34:24.656
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:34:24.689
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2016-03-23 20:34:24.692
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.openhab.ui.webapp 4 0 2016-03-23 20:34:57.212
+!MESSAGE [SCR] Error while attempting to deactivate instance of component Component[
+	name = org.openhab.ui.webapp.webappservlet
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = true
+	implementation = org.openhab.ui.webapp.internal.servlet.WebAppServlet
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = null
+	references = {
+		Reference[name = ItemRegistry, interface = org.openhab.core.items.ItemRegistry, policy = dynamic, cardinality = 1..1, target = null, bind = setItemRegistry, unbind = unsetItemRegistry]
+		Reference[name = HttpService, interface = org.osgi.service.http.HttpService, policy = dynamic, cardinality = 1..1, target = null, bind = setHttpService, unbind = unsetHttpService]
+		Reference[name = SitemapProvider, interface = org.openhab.model.sitemap.SitemapProvider, policy = dynamic, cardinality = 1..1, target = null, bind = setSitemapProvider, unbind = unsetSitemapProvider]
+		Reference[name = PageRenderer, interface = org.openhab.ui.webapp.internal.render.PageRenderer, policy = static, cardinality = 1..1, target = null, bind = setPageRenderer, unbind = null]
+	}
+	located in bundle = org.openhab.ui.webapp_1.8.1 [211]
+]
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.deactivate(ServiceComponent.java:363)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.deactivate(ServiceComponentProp.java:161)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:102)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:344)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:368)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:225)
+	at org.eclipse.equinox.http.servlet.internal.Activator.removeProxyServlet(Activator.java:87)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.destroy(ProxyServlet.java:44)
+	at org.eclipse.jetty.servlet.ServletHolder.destroyInstance(ServletHolder.java:362)
+	at org.eclipse.jetty.servlet.ServletHolder.doStop(ServletHolder.java:336)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:208)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:133)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:798)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:153)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:323)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.util.thread.ShutdownThread.run(ShutdownThread.java:124)
+Caused by: java.lang.IllegalArgumentException: Alias not found: /classicui/openhab.app
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceImpl.unregister(HttpServiceImpl.java:90)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.deactivate(WebAppServlet.java:89)
+	... 41 more
+Root exception:
+java.lang.IllegalArgumentException: Alias not found: /classicui/openhab.app
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceImpl.unregister(HttpServiceImpl.java:90)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.deactivate(WebAppServlet.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.deactivate(ServiceComponent.java:363)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.deactivate(ServiceComponentProp.java:161)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:102)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:344)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:368)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:225)
+	at org.eclipse.equinox.http.servlet.internal.Activator.removeProxyServlet(Activator.java:87)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.destroy(ProxyServlet.java:44)
+	at org.eclipse.jetty.servlet.ServletHolder.destroyInstance(ServletHolder.java:362)
+	at org.eclipse.jetty.servlet.ServletHolder.doStop(ServletHolder.java:336)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:208)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:133)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:798)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:153)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:323)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.util.thread.ShutdownThread.run(ShutdownThread.java:124)
+
+!ENTRY org.openhab.ui.webapp 4 0 2016-03-23 20:34:57.214
+!MESSAGE [SCR] Error while attempting to deactivate instance of component Component[
+	name = org.openhab.ui.webapp.webappservlet
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = true
+	implementation = org.openhab.ui.webapp.internal.servlet.WebAppServlet
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = null
+	references = {
+		Reference[name = ItemRegistry, interface = org.openhab.core.items.ItemRegistry, policy = dynamic, cardinality = 1..1, target = null, bind = setItemRegistry, unbind = unsetItemRegistry]
+		Reference[name = HttpService, interface = org.osgi.service.http.HttpService, policy = dynamic, cardinality = 1..1, target = null, bind = setHttpService, unbind = unsetHttpService]
+		Reference[name = SitemapProvider, interface = org.openhab.model.sitemap.SitemapProvider, policy = dynamic, cardinality = 1..1, target = null, bind = setSitemapProvider, unbind = unsetSitemapProvider]
+		Reference[name = PageRenderer, interface = org.openhab.ui.webapp.internal.render.PageRenderer, policy = static, cardinality = 1..1, target = null, bind = setPageRenderer, unbind = null]
+	}
+	located in bundle = org.openhab.ui.webapp_1.8.1 [211]
+]
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.deactivate(ServiceComponent.java:363)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.deactivate(ServiceComponentProp.java:161)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:102)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:344)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:368)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:225)
+	at org.eclipse.equinox.http.servlet.internal.Activator.removeProxyServlet(Activator.java:87)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.destroy(ProxyServlet.java:44)
+	at org.eclipse.jetty.servlet.ServletHolder.destroyInstance(ServletHolder.java:362)
+	at org.eclipse.jetty.servlet.ServletHolder.doStop(ServletHolder.java:336)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:208)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:133)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:798)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:153)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:323)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.util.thread.ShutdownThread.run(ShutdownThread.java:124)
+Caused by: java.lang.IllegalArgumentException: Alias not found: /classicui/openhab.app
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceImpl.unregister(HttpServiceImpl.java:90)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.deactivate(WebAppServlet.java:89)
+	... 41 more
+Root exception:
+java.lang.IllegalArgumentException: Alias not found: /classicui/openhab.app
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceImpl.unregister(HttpServiceImpl.java:90)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.deactivate(WebAppServlet.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.deactivate(ServiceComponent.java:363)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.deactivate(ServiceComponentProp.java:161)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:102)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:344)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:368)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:225)
+	at org.eclipse.equinox.http.servlet.internal.Activator.removeProxyServlet(Activator.java:87)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.destroy(ProxyServlet.java:44)
+	at org.eclipse.jetty.servlet.ServletHolder.destroyInstance(ServletHolder.java:362)
+	at org.eclipse.jetty.servlet.ServletHolder.doStop(ServletHolder.java:336)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:208)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:133)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:798)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:153)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStop(HandlerCollection.java:245)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:323)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.util.thread.ShutdownThread.run(ShutdownThread.java:124)
