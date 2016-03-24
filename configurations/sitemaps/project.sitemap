@@ -3,6 +3,11 @@ sitemap project label="Home Automation Project"
 	Frame {
 		Group item=All
 	}
-	
+	Frame label="Inside" {
+		Group item=GI_Living
+	}
+	Frame label="All Lights"{
+		Group item=Lights	mappings=[ON="All On", OFF="All Off"]
+	}
 	
 }
